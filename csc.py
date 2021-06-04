@@ -41,7 +41,7 @@ def dokuman_yap(dersAdi,egitimYili,sinav,grup,anahtar=0):
     section.bottom_margin = Inches(0.5)
 
 #******BAŞLIK KISMI ************************************************
-    yaz(document,okulAdi+' \n  '+dersAdi.upper()+' \n '+egitimYili+' EĞİTİM ÖĞRETİM YILI '+donem+'. DÖNEM '+sinav+'. YAZILI '+grup+' GRUBU SINAV SORULARI',WD_ALIGN_PARAGRAPH.CENTER,1)
+    yaz(document,okulAdi+' \n  '+dersAdi.upper()+' DERSİ \n '+egitimYili+' EĞİTİM ÖĞRETİM YILI '+donem+'. DÖNEM '+sinav+'. YAZILI '+grup+' GRUBU SINAV SORULARI',WD_ALIGN_PARAGRAPH.CENTER,1)
     yaz(document,'Öğrencinin Adı\t:\nNumarası\t:',WD_ALIGN_PARAGRAPH.LEFT,1)
     siklar=np.array(['','a) ','b) ', 'c) ','d) ','e) '])
 #******2 SUTUN YAP****************************************************
